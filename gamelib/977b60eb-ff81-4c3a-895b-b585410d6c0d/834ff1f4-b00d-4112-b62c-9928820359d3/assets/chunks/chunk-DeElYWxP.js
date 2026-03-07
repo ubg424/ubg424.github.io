@@ -1,0 +1,1 @@
+import{cX as s,V as n}from"./chunk-CG7G1Pjb.js";function L(e){const l=e.split("/");let t="";l.length>1&&(t=l[1].toLowerCase());let o=n,a=e;return s.map(c=>c.toLowerCase()).includes(t)&&(o=t,a=e.replace(`/${o}/`,"/")),{locale:o,urlWithoutLocale:a}}export{L as e};

@@ -1,0 +1,1 @@
+import{r as i,aZ as m,a_ as n}from"./chunk-CG7G1Pjb.js";const u=r=>{const{minDelay:e=15e3,maxDelay:a=3e4,promoType:t,oddsOfTriggering:s=.3}=r||{};i.useEffect(()=>{if(Math.random()>s)return;const o=setTimeout(()=>{m(t||void 0)},n(e,a));return()=>{o&&clearTimeout(o)}},[])};export{u};
